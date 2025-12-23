@@ -4,7 +4,7 @@
 ▶️ Watch the project demo here:  
 https://drive.google.com/file/d/1sM9si-9weHMY0-cpj6JBl8C5fXeAa2y4/view?usp=sharing# XTechon Flight Booking System
 
-# XTechon Flight Booking System ✈️
+
 A full-stack flight booking application built with:
 ## 🛠 Tech Stack
 - Frontend: React.js, CSS
