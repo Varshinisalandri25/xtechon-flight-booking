@@ -25,7 +25,7 @@ A full-stack flight booking application built with:
 Backend:
 cd backend
 npm install
-npm start
+node app.js
 
 Frontend:
 cd frontend
