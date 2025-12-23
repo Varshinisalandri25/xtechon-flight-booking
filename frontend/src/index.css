@@ -1,0 +1,24 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULL APP BACKGROUND */
+html, body {
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+  background: radial-gradient(
+    circle at top,
+    #0f3a44 0%,
+    #061b24 45%,
+    #020b11 100%
+  );
+  color: #eaf6ff;
+}
+
+/* ROOT */
+#root {
+  min-height: 100vh;
+}

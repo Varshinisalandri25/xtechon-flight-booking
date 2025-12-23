@@ -1,0 +1,82 @@
+/* PREMIUM FLIGHT / BOOKING CARD */
+.card {
+  width: 380px;
+  padding: 22px 24px;
+  margin-bottom: 26px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(18, 45, 58, 0.85),
+    rgba(6, 20, 28, 0.92)
+  );
+
+  border-radius: 16px;
+
+  border: 1px solid rgba(140, 220, 255, 0.12);
+
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.02),
+    0 18px 45px rgba(0,0,0,0.55),
+    inset 0 1px 0 rgba(255,255,255,0.04);
+
+  backdrop-filter: blur(14px);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* HOVER EFFECT (VERY SUBTLE) */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 0 0 1px rgba(120,200,255,0.15),
+    0 25px 60px rgba(0,0,0,0.75);
+}
+
+/* AIRLINE NAME */
+.card h4 {
+  font-size: 18px;
+  color: #8fdcff;
+  margin-bottom: 10px;
+}
+
+/* ROUTE */
+.card .route {
+  font-size: 15px;
+  color: #e9f7ff;
+  margin-bottom: 6px;
+}
+
+/* META INFO */
+.card .meta {
+  font-size: 13px;
+  color: #9fb8c8;
+  margin-bottom: 14px;
+}
+
+/* ACTION BUTTON */
+.action-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+
+  background: linear-gradient(
+    90deg,
+    #ff5f5f,
+    #ff3b3b
+  );
+
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+
+  box-shadow:
+    0 8px 25px rgba(255, 80, 80, 0.45);
+
+  transition: all 0.25s ease;
+}
+
+.action-btn:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 12px 35px rgba(255, 80, 80, 0.6);
+}

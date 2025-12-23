@@ -1,0 +1,23 @@
+/* HEADINGS */
+h1, h2, h3 {
+  color: #cdefff;
+  letter-spacing: 0.5px;
+}
+
+/* LINKS */
+a {
+  color: #6fd6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* BUTTONS */
+button {
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
